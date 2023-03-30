@@ -64,6 +64,12 @@ import useEmitter from "@/composables/useEmitter";
 export default defineComponent({
     name: "CommunityListItem",
     components: {PrognoModal, ConfirmJoinCommunityModal, ConfirmLeaveCommunityModal},
+=======
+    components: {PrognoModal},
+>>>>>>> 8c81de3 (Fix #75 Fix #76)
+=======
+    components: {PrognoModal},
+>>>>>>> bea93e8d4a73487b6227b603367e1fda442e87b3
     props: {
         community: {
             type: Object as PropType<Community>,
